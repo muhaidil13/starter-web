@@ -1,0 +1,70 @@
+.font-inter {
+  font-family: "Inter", sans-serif;
+}
+.font-quick-sans {
+  font-family: "Quicksand", sans-serif;
+}
+.font-roboto {
+  font-family: "Roboto", sans-serif;
+}
+
+.carousel-container {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.carousel-slide {
+  transition: transform 0.3s, filter 0.3s;
+}
+
+.img-size {
+  height: 25rem;
+  width: 25rem;
+  box-sizing: border-box;
+  background-size: contain;
+}
+
+.img-size-info {
+  height: 21rem;
+  width: 100%;
+  box-sizing: border-box;
+  background-size: contain;
+}
+
+.carousel-slide img {
+  width: 100%;
+  height: auto;
+  transition: filter 0.3s;
+}
+
+.carousel-slide:hover {
+  transform: scale(1.05); /* Efek zoom saat di-hover */
+}
+
+.carousel-slide:hover img {
+  filter: brightness(70%) blur(2px); /* Menambahkan efek brightness dan blur pada gambar saat di-hover */
+}
+
+.carousel-slide:first-child {
+  margin-left: 0;
+}
+
+.carousel-slide img {
+  width: 100%;
+  height: auto;
+}
+
+.carousel-prev,
+.carousel-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.carousel-prev {
+  left: 0;
+}
+
+.carousel-next {
+  right: 0;
+}

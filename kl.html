@@ -1,0 +1,500 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Klapa Farm || Zero Waste</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <style>
+      @font-face {
+        font-family: "segoepr";
+        src: url("./font/segoepr.ttf");
+      }
+      
+        *{
+          font-family: 'Inter', sans-serif !important;
+        }
+
+        .fontsegoe{
+          font-family: 'segoepr' !important;
+        }
+        
+          .gradient{
+              /* background: linear-gradient(70deg, #213d22 0%, #487b37 80% ); */
+              /* background-color:#487b37 ; */
+              background-color:#000000 ;
+          }
+          .bg-qoute{
+            background-color: #F1F6F9;
+          }
+          .servicesImageHeigth {
+              height: 500px;
+              width: auto;
+          }
+          .gradient-bg-one{
+              /* background: linear-gradient(70deg, #213d22 0%, #487b37 80% ); */
+              background-color:#487b37 ;
+          }
+          .image-size{
+              height:auto;
+              width: auto;
+          }
+          .image-size-md{
+              height: auto;
+              width: auto;
+          }
+          .bg-gold{
+              background-color: #FFD93D;
+          }
+          .doc-size{
+            width: 20rem;
+            height: 25rem;
+          }
+          .text-klapa{
+            color:#026b30
+          }
+          .bg-klapa{
+            background-color:#026b30 ;
+          }
+      </style>
+</head>
+<body class="leading-normal tracking-normal text-black scroll-smooth	">
+    <main class="h-auto w-auto gradient">
+        <nav id="header" class="fixed w-full z-30 top-0 text-blue-900">
+            <div class="w-full container mx-auto flex flex-wrap items-center justify-between ">
+                <div class="pl-4 mt-4 flex items-center">
+                    <img src="<?php echo BASE_URL;?>/assets/Klapa-Farm.png" class="h-30 w-40" alt="">
+                </div>
+                <div class="block lg:hidden pr-4">
+                    <button id="nav-toggle" class="flex items-center p-1 text-pink-800 hover:text-gray-900 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+                      <svg class="fill-current h-6 w-6" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                        <title>Menu</title>
+                        <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+                      </svg>
+                    </button>
+                  </div>
+                <div class="mb-4 w-full flex-grow lg:flex lg:items-center lg:w-auto hidden lg:mt-0 bg-white lg:bg-transparent text-black p-5 lg:p-0 z-20" id="nav-content">
+                    <ul class="list-reset lg:flex justify-end flex-1 items-center" >
+                      <li class="mr-3">
+                        <a class="inline-block py-2 px-4 text-klapa font-bold no-underline " href="#home">Home</a>
+                      </li>
+                      <li class="mr-3">
+                        <a class="inline-block text-klapa no-underline hover:text-gray-800 hover:text-underline py-2 px-4" href="#goal">Goal</a>
+                      </li>
+                      <li class="mr-3">
+                        <a class="inline-block text-klapa no-underline hover:text-gray-800 hover:text-underline py-2 px-4" href="#team">Team</a>
+                      </li>
+                    </ul>
+                    <a href="#doc"
+                      id="navAction"
+                      class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow opacity-75 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
+                    >
+                      More
+                    </a>
+                  </div>
+            </div>
+        </nav>
+        <div class="pt-28 text-green-900 pb-20" id="home">
+            <div class="container relative px-3 mx-auto flex flex-wrap flex-col md:flex-row justify-between">
+                <div class="relative flex flex-col w-full md:w-2/5  justify-center items-start text-center md:text-left">
+                    <!-- <p class="uppercase tracking-wide w-full ">
+                      Klapa Farm
+                    </p> -->
+                    <h1 class="my-4 text-7xl fontsegoe font-bold leading-tight  text-klapa" data-aos="fade-right" data-aos-offset="200"
+                    data-aos-delay="100">Klapa Farm</h1>
+                    <p class="leading-normal text-2xl mb-8 text-klapa" data-aos="fade-left" data-aos-offset="200"
+                    data-aos-delay="100">
+                      Kelapa Untuk Negeri
+                    </p>
+                    <p class="leading-normal italic text-2xl mb-8 text-klapa" data-aos="fade-up" data-aos-offset="200"
+                    data-aos-delay="100">
+                      "Petani Bahagia, Kami Bangga"
+                    </p>
+                      <button class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
+                      data-aos="fade-down" data-aos-offset="200"
+            data-aos-delay="100"
+                      >
+                        See More
+                      </button>
+                </div>
+                <div class="relative w-full md:w-2/4 text-center p-10" data-aos="fade-up" data-aos-offset="200"
+                data-aos-delay="100">
+                        <img src="<?php echo BASE_URL;?>/assets/main-2.jpg" class="rounded-full flex-shrink-0 border-6 border-black shadow-md mx-auto w-full md:w-4/5 z-50" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="relative -mt-12 lg:-mt-24">
+            <svg viewBox="0 0 1428 174" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                  <g transform="translate(-2.000000, 44.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                    <path d="M0,0 C90.7283404,0.927527913 147.912752,27.187927 291.910178,59.9119003 C387.908462,81.7278826 543.605069,89.334785 759,82.7326078 C469.336065,156.254352 216.336065,153.6679 0,74.9732496" opacity="0.100000001"></path>
+                    <path
+                      d="M100,104.708498 C277.413333,72.2345949 426.147877,52.5246657 546.203633,45.5787101 C666.259389,38.6327546 810.524845,41.7979068 979,55.0741668 C931.069965,56.122511 810.303266,74.8455141 616.699903,111.243176 C423.096539,147.640838 250.863238,145.462612 100,104.708498 Z"
+                      opacity="0.100000001"
+                    ></path>
+                    <path d="M1046,51.6521276 C1130.83045,29.328812 1279.08318,17.607883 1439,40.1656806 L1439,120 C1271.17211,77.9435312 1140.17211,55.1609071 1046,51.6521276 Z" id="Path-4" opacity="0.200000003"></path>
+                  </g>
+                  <g transform="translate(-4.000000, 76.000000)" fill="#F1F6F9" fill-rule="nonzero">
+                    <path
+                      d="M0.457,34.035 C57.086,53.198 98.208,65.809 123.822,71.865 C181.454,85.495 234.295,90.29 272.033,93.459 C311.355,96.759 396.635,95.801 461.025,91.663 C486.76,90.01 518.727,86.372 556.926,80.752 C595.747,74.596 622.372,70.008 636.799,66.991 C663.913,61.324 712.501,49.503 727.605,46.128 C780.47,34.317 818.839,22.532 856.324,15.904 C922.689,4.169 955.676,2.522 1011.185,0.432 C1060.705,1.477 1097.39,3.129 1121.236,5.387 C1161.703,9.219 1208.621,17.821 1235.4,22.304 C1285.855,30.748 1354.351,47.432 1440.886,72.354 L1441.191,104.352 L1.121,104.031 L0.457,34.035 Z"
+                    ></path>
+                  </g>
+                </g>
+              </svg>
+        </div>
+        <section class="bg-white border-b py-28 bg-qoute">
+            <div class="relative container max-w-5xl mx-auto  mb-36" data-aos="fade-up" data-aos-offset="200"
+            data-aos-delay="100">
+                <div class="w-full p-10 text-gray-600" >
+                    <p class=" md:text-xl lg:text-3xl text-justify">
+                        Apa yang membuat kami berbeda ? </p>
+                    <p class=" md:text-xl pt-2 italic mt-2 lg:text-2xl text-justify">
+                        Komoditas Kami "zero waste"
+                             </p>
+                    <p class="md:text-2xl pt-5 lg:text-3xl italic text-justify">
+                        "Happy farmer is our proud"
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-white pt-20 pb-24 relative lg:px-52" id="goal">
+            <div class="max-w-6xl mx-auto">
+                <div class="text-center">
+                    <h1 class="text-5xl font-bold text-green-900 fontsegoe" data-aos="fade-up" data-aos-offset="200"
+                    data-aos-delay="100">Visi Dan Misi</h1>
+                </div>
+            </div>
+            <div class="flex flex-wrap" data-aos="fade-right" data-aos-offset="200"
+                data-aos-delay="100">
+              <div class="w-full sm:w-1/2 p-6">
+                <h3 class="text-4xl fontsegoe text-green-900 font-bold leading-none my-6">
+                  Visi Kami
+                </h3>
+                <ul class="list-decimal text-xl text-justify pl-2">
+                  <li class="mb-4 ">
+                    Sebagai platform pertama yang hanya fokus pada kelapa dan turunannya.
+                  </li>
+                  <li>
+                    Sebagai rantai pasok yang terpercaya dan transparan bagi seluruh pemangku kepentingan dan mitra. Tumbuh bersama, mengedukasi, memberikan informasi terbuka tentang harga, distribusi dan pengolahan.
+                  </li>
+                  </ul>
+              </div>
+              <div class="w-full sm:w-1/2 p-6">
+                <img src="<?php echo BASE_URL;?>/assets/visi.jpg" alt="">
+              </div>
+              <div class="flex flex-wrap flex-col-reverse sm:flex-row pl-4" data-aos="fade-left" data-aos-offset="200"
+              data-aos-delay="100">
+                <div class="w-5/4 sm:w-1/2 p-6 mt-6">
+                  <img src="<?php echo BASE_URL;?>/assets/Misi.jpg" alt="">
+                </div>
+                <div class="w-full sm:w-1/2 p-6 mt-6">
+                  <div class="align-middle">
+                    <h3 class="text-4xl text-green-900 font-bold leading-none mb-5 fontsegoe">
+                      Misi Kami
+                    </h3>
+                    <ul class="list-decimal text-xl text-justify">
+                        <li class="mb-4">
+                          Membangun ekosistem yang cerdas dari hulu ke hilir.
+                        </li>
+                        <li>
+                          Untuk memajukan pertanian nusantara, mewujudkan impian petani untuk kehidupan yang sejahtera dan kesempatan kerja baru bagi masyarakat setempat.
+                        </li>
+                    </ul>
+                  </div>
+                </div>
+            </div>
+        </section>
+         <section class="pb-10 pt-10  bg-white" >
+            <div class="max-w-6xl mx-auto">
+              <div class="text-center">
+                  <h1 class="text-5xl fontsegoe font-bold text-green-900" data-aos="fade-up" data-aos-offset="200"
+                  data-aos-delay="100">Model Bisnis</h1>
+              </div>
+              <div class="container" data-aos="fade-up" data-aos-offset="200"
+              data-aos-delay="50">
+                <img src="<?php echo BASE_URL;?>/assets/bisnis-model.png" class="" alt="">
+              </div>
+            </div>  
+          </section>
+          <section class="bg-gray-200 pt-20 pb-24 " id="team">
+            <div class="max-w-6xl mx-auto">
+                <div class="text-center">
+                    <h1 class="text-5xl fontsegoe font-bold text-green-900" data-aos="fade-up" data-aos-offset="200"
+                    data-aos-delay="100">Meet Our Team</h1>
+                </div>
+                <div class="mt-24 pb-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10">
+                    <div class="relative h-full" data-aos="fade-up" data-aos-offset="200"
+                    data-aos-delay="100">
+                        <div class="p-2 bg-gold rounded-full">
+                            <img src="<?php echo BASE_URL;?>/assets/yusran.png"
+                            class=" rounded-full image-size mx-auto object-center w-full flex-shrink-0 shadow-md"
+                            alt=""> 
+                        </div>
+                        <div class="w-auto text-center">
+                            <p class="pt-10 font-bold text-2xl text-green-900">Yusran A Geno</p>
+                            <p class="italic pt-2">Founder / CEO</p>
+                            <p class="pt-3 italic text-gray-800">Exprienced in acquisition, retail & distribution.</p>
+                        </div>
+                    </div>
+                    <div class="relative h-full" data-aos="fade-up" data-aos-offset="200"
+                    data-aos-delay="120">
+                        <div class="p-2 bg-gold rounded-full">
+                            <img src="<?php echo BASE_URL;?>/assets/wahyu.png"
+                            class=" rounded-full image-size mx-auto object-center object-cover flex-shrink-0 shadow-md"
+                            alt=""> 
+                        </div>
+                        <div class="w-auto text-center">
+                            <p class="pt-10 font-bold text-2xl text-green-900">Wahyu Karib</p>
+                            <p class="italic pt-2">Supply Chain Head</p>
+                            <p class="pt-3 italic text-gray-800">Corn, shell charcoal & copra supplier.</p>
+                        </div>
+                    </div>
+                    <div class="relative h-full" data-aos="fade-up" data-aos-offset="200"
+                    data-aos-delay="140">
+                        <div class="p-2 bg-gold rounded-full">
+                            <img src="<?php echo BASE_URL;?>/assets/Bidari.jpg"
+                            class=" rounded-full image-size object-cover mx-auto object-center  flex-shrink-0 shadow-md"
+                            alt=""> 
+                        </div>
+                        <div class="w-auto text-center">
+                            <p class="pt-10 font-bold text-2xl text-green-900">A. Bidari Chandra</p>
+                            <p class="italic pt-2">Finance</p>
+                            <p class="pt-3 italic text-gray-800">Bachelor of accounting.</p>
+                        </div>
+                    </div>
+                    <div class="relative h-full" data-aos="fade-up" data-aos-offset="200"
+                    data-aos-delay="160">
+                        <div class="p-2 bg-gold rounded-full">
+                            <img src="<?php echo BASE_URL;?>/assets/dika.png"
+                            class=" rounded-full image-size object-cover mx-auto object-center  flex-shrink-0 shadow-md"
+                            alt=""> 
+                        </div>
+                        <div class="w-auto text-center">
+                            <p class="pt-10 font-bold text-2xl text-green-900">Andhika Indra Diraja</p>
+                            <p class="italic pt-2">Digital Marketing</p>
+                            <p class="pt-3 italic text-gray-800">Communication Management</p>
+                        </div>
+                    </div>
+                    <div class="relative h-full" data-aos="fade-up" data-aos-offset="200"
+                    data-aos-delay="180">
+                        <div class="p-2 bg-gold rounded-full">
+                            <img src="<?php echo BASE_URL;?>/assets/farid.png"
+                            class=" rounded-full image-size object-cover mx-auto object-center  flex-shrink-0 shadow-md"
+                            alt=""> 
+                        </div>
+                        <div class="w-auto text-center">
+                            <p class="pt-10 font-bold text-2xl text-green-900">Muh Farid Wajdi A</p>
+                            <p class="italic pt-2">UX Developer</p>
+                            <p class="pt-3 italic text-gray-800">Bachelor of information and technology</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </section>
+
+          <section class="pb-10 pt-10 relative bg-white">
+            <div class="mx-auto relative">
+              <div class="text-center pb-20 pt-20">
+                  <h1 class="text-5xl fontsegoe font-bold text-green-900" data-aos="fade-up" data-aos-offset="200"
+                  data-aos-delay="100" id="doc">Dokumentasi</h1>
+              </div>
+              <div class="container w-full relative mx-auto">
+                <div class="flex flex-col mx-auto lg:flex-row gap-6">
+                  <div>
+                    <img src="<?php echo BASE_URL;?>/assets/1.jpg" class="object-cover mx-auto doc-size rounded-3xl" alt="" data-aos="fade-up" data-aos-offset="200"
+                    data-aos-delay="100">
+                  </div>
+                  <div>
+                    <img src="<?php echo BASE_URL;?>/assets/2.jpg" class="object-cover mx-auto doc-size rounded-3xl" alt="" data-aos="fade-up" data-aos-offset="200"
+                    data-aos-delay="100">
+                  </div>
+                  <div>
+                    <img src="<?php echo BASE_URL;?>/assets/3.jpg" class="object-cover mx-auto doc-size rounded-3xl" alt="" data-aos="fade-up" data-aos-offset="200"
+                    data-aos-delay="120">
+                  </div>
+                  <div>
+                    <img src="<?php echo BASE_URL;?>/assets/4.jpg" class="object-cover mx-auto doc-size rounded-3xl" alt="" data-aos="fade-up" data-aos-offset="200"
+                    data-aos-delay="100">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <footer class="gradient leading-relaxed " >
+            <div class="container mx-auto px-8">
+              <div class="w-full flex flex-col md:flex-row py-10">
+                <div class="flex-1 px-20">
+                  <img src="<?php echo BASE_URL;?>/assets/Klapa-Farm.png" alt="">
+                </div>
+                <div class="flex-1">
+                  <p class="uppercase text-klapa md:mb-6 font-bold">Links</p>
+                  <ul class="list-reset mb-6">
+                    <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                      <a href="#" class="no-underline hover:underline text-white hover:text-green-900">FAQ</a>
+                    </li>
+                    <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                      <a href="#" class="no-underline hover:underline text-white hover:text-green-900">Help</a>
+                    </li>
+                    <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                      <a href="#" class="no-underline hover:underline text-white hover:text-green-900">Support</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="flex-1">
+                  <p class="uppercase text-klapa md:mb-6 font-bold">LEGAL</p>
+                  <ul class="list-reset mb-6">
+                    <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                      <a href="#" class="no-underline hover:underline text-white hover:text-green-900">Terms</a>
+                    </li>
+                    <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                      <a href="#" class="no-underline hover:underline text-white hover:text-green-900">Privacy</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="flex-1">
+                  <p class="uppercase text-klapa md:mb-6 font-bold">SOCIAL</p>
+                  <ul class="list-reset mb-6">
+                    <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                      <a href="#" class="no-underline hover:underline text-white hover:text-green-900">Linkedin</a>
+                    </li>
+                    <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                      <a href="#" class="no-underline hover:underline text-white hover:text-green-900">Facebook</a>
+                    </li>
+                    <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                      <a href="https://instagram.com/klapafarm?igshid=ZDdkNTZiNTM=" class="no-underline hover:underline text-white hover:text-green-900">Instagram</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="flex-1">
+                  <p class="uppercase text-klapa md:mb-6 font-bold">COMPANY</p>
+                  <ul class="list-reset mb-6">
+                    <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                      <p href="#" class="no-underline hover:underline text-white hover:text-green-900">PT. SINAR LANGGANG PERKASA</p>
+                    </li>
+                    <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                      <p href="#" class="no-underline hover:underline text-white hover:text-green-900">JL. ANTANG RAYA KOMP.MAHKOTA MAS BLOK B6/4</p>
+                    </li>
+                    <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                      <p href="#" class="no-underline hover:underline text-white hover:text-green-900">BITOWA, MANGGALA</p>
+                    </li>
+                    <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                      <p href="#" class="no-underline hover:underline text-white hover:text-green-900">KOTA MAKASSAR SULAWESI SELATAN</p>
+                    </li>
+                    <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                      <p href="#" class="no-underline hover:underline text-white hover:text-green-900">+62 813-4208-2055</p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              </div>
+            </div>
+          </footer>
+        </main>
+
+   
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init();
+        </script>
+ 
+    <script>
+      var scrollpos = window.scrollY;
+      var header = document.getElementById("header");
+      var navcontent = document.getElementById("nav-content");
+      var navaction = document.getElementById("navAction");
+      var toToggle = document.querySelectorAll(".toggleColour");
+
+      document.addEventListener("scroll", function () {
+        /*Apply classes for slide in bar*/
+        scrollpos = window.scrollY;
+
+        if (scrollpos > 10) {
+          header.classList.add("bg-white");
+        
+          navaction.classList.remove("bg-white");
+          navaction.classList.add("bg-klapa");
+          navaction.classList.remove("text-green-900");
+          navaction.classList.add("text-black");
+          //Use to switch toggleColour colours
+          for (var i = 0; i < toToggle.length; i++) {
+            toToggle[i].classList.add("text-gray-800");
+            toToggle[i].classList.remove("text-white");
+          }
+          header.classList.add("shadow");
+          navcontent.classList.remove("bg-gray-100");
+          navcontent.classList.add("bg-white");
+        } else {
+          header.classList.remove("bg-white");
+          navaction.classList.remove("bg-klapa");
+          navaction.classList.add("bg-white");
+          navaction.classList.remove("text-white");
+          navaction.classList.add("text-green-900");
+          //Use to switch toggleColour colours
+          for (var i = 0; i < toToggle.length; i++) {
+            toToggle[i].classList.add("text-white");
+            toToggle[i].classList.remove("text-gray-800");
+          }
+
+          header.classList.remove("shadow");
+          navcontent.classList.remove("bg-white");
+          navcontent.classList.add("bg-gray-100");
+        }
+      });
+    </script>
+    <script>
+      /*Toggle dropdown list*/
+      /*https://gist.github.com/slavapas/593e8e50cf4cc16ac972afcbad4f70c8*/
+
+      var navMenuDiv = document.getElementById("nav-content");
+      var navMenu = document.getElementById("nav-toggle");
+
+      document.onclick = check;
+      function check(e) {
+        var target = (e && e.target) || (event && event.srcElement);
+
+        //Nav Menu
+        if (!checkParent(target, navMenuDiv)) {
+          // click NOT on the menu
+          if (checkParent(target, navMenu)) {
+            // click on the link
+            if (navMenuDiv.classList.contains("hidden")) {
+              navMenuDiv.classList.remove("hidden");
+            } else {
+              navMenuDiv.classList.add("hidden");
+            }
+          } else {
+            // click both outside link and outside menu, hide menu
+            navMenuDiv.classList.add("hidden");
+          }
+        }
+      }
+      function checkParent(t, elm) {
+        while (t.parentNode) {
+          if (t == elm) {
+            return true;
+          }
+          t = t.parentNode;
+        }
+        return false;
+      }
+    </script>
+</body>
+    
+</html>
+
+    </main>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+</body>
+</html>
